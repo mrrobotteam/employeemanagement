@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$serverName = $_SERVER['SERVER_NAME'];
-$config['base_url'] = 'http://'.$serverName.'/karyawan/';
+// $serverName = $_SERVER['SERVER_NAME'];
+$config['base_url'] = 'http://localhost:8080/employeemanagement/';
 
 /*
 |--------------------------------------------------------------------------
