@@ -49,7 +49,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> Home</a></li>
                   <li><a><i class="fa fa-database"></i> Master Data</a></li>
-                  <li onclick="window.open('<?php echo base_url() ?>login/index','_blank');"><a><i class="fa fa-check-square-o"></i>Attendance</a></li>
+                  <li onclick="window.open('<?php echo base_url() ?>Navigation/attendance','_blank');"><a><i class="fa fa-check-square-o"></i>Attendance</a></li>
                 </ul>
               </div>
 
@@ -136,18 +136,6 @@
           <div class="row">
             <div class="row"></div>
           </div>
-
-        <div id="main-content">
-          
-                <div class="code_base">
-                      <form>
-                        <center><h1>Time To Work</h1></center>
-                        <div>
-                          <center><input type="text" class="form-control inputcode" placeholder="CODE" required="" autofocus /></center>
-                        </div>
-                      </form>
-                  </div>
-              </div>
 
         </div>
         <!-- /page content -->
