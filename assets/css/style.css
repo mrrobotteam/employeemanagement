@@ -1,0 +1,15 @@
+.inputcode
+{
+    background: white;
+    font-size: 80px;
+    height: 100px;
+    width: 258px;
+}
+.code_base
+{
+    right: 0px;
+    margin: 0px auto;
+    margin-top: 5%;
+    max-width: 350px;
+    position: relative
+}

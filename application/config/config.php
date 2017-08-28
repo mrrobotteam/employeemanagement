@@ -23,9 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-
-$serverName = $_SERVER['SERVER_NAME'];
-$config['base_url'] = 'http://'.$serverName.'/karyawan/';
+$config['base_url'] = 'http://localhost:8080/Pegawai1/';
 
 /*
 |--------------------------------------------------------------------------
