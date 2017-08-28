@@ -1,13 +1,15 @@
 <?php
-    class Login extends CI_Controller
+    class LoginController extends CI_Controller
     {
         function __construct()
         {
             parent::__construct();
+            echo "x";
         }
+
         function index()
         {
-            $this->load->view('pages/Login_v');
+            $this->load->view('Auth/Login_v');
         }
     }
           
